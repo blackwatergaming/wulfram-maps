@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/wulfram-map-source-v1.schema.json",
+  "format": "wulfram-map-source",
+  "version": 1,
+  "name": "aberdour",
+  "terrain": {
+    "width": 129,
+    "height": 129,
+    "worldWidth": 5600,
+    "worldHeight": 5600
+  },
+  "validation": {
+    "serviceRadius": 300,
+    "backupRadius": 80,
+    "maxSlopeDegrees": 22,
+    "minSpacing": 8
+  },
+  "updatedAt": "2000-01-01T00:00:00.000Z"
+}
