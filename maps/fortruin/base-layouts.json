@@ -1,0 +1,764 @@
+{
+  "$schema": "https://raw.githubusercontent.com/blackwatergaming/wulfram-mapeditor/main/public/schemas/wulfram-base-layout-collection-v1.schema.json",
+  "format": "wulfram-base-layout-collection",
+  "version": 1,
+  "activeLayoutId": "layout-a7a946b7-cfc3-4128-96cf-16ad03cd4353",
+  "layouts": [
+    {
+      "id": "layout-a7a946b7-cfc3-4128-96cf-16ad03cd4353",
+      "name": "BuildABase",
+      "metadata": {},
+      "entities": [
+        {
+          "id": "curated-base-in-a-box-1-e71ba5ec-ae89-41a9-82cd-d90c02a5ea40",
+          "token": "r",
+          "team": 2,
+          "position": [
+            4240.822122434035,
+            4085.138281308726,
+            210.394114268667
+          ],
+          "rotation": [
+            0.050827491604,
+            0.012658982288,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-2-5cbb2716-aa7d-4c54-88cb-3b8ec91ea38c",
+          "token": "e",
+          "team": 2,
+          "position": [
+            4240.822122434035,
+            4030.138281308726,
+            203.02589519382
+          ],
+          "rotation": [
+            0.039575415465,
+            0.023216615001,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-3-a798a0ab-7307-427e-aaf6-fb5d85e8166a",
+          "token": "c",
+          "subtype": "e",
+          "team": 2,
+          "position": [
+            4345.822122434035,
+            4085.138281308726,
+            203.730706195504
+          ],
+          "rotation": [
+            0.160127958612,
+            -0.039611934577,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-4-ebc85ddc-7ba7-43bf-8181-afcdf47a371d",
+          "token": "c",
+          "subtype": "e",
+          "team": 2,
+          "position": [
+            4331.755122434035,
+            4137.638281308726,
+            210.087433789855
+          ],
+          "rotation": [
+            0.063100774955,
+            -0.037231484175,
+            0.523598775598
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-5-860cd97a-e44a-43c6-b443-141bb26d8e9a",
+          "token": "c",
+          "subtype": "f",
+          "team": 2,
+          "position": [
+            4293.322122434035,
+            4176.071281308726,
+            212.151092412221
+          ],
+          "rotation": [
+            0.008123328527,
+            -0.048839251884,
+            1.047197551197
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-6-4a634f0e-a257-4cb4-ade0-44951a68ad21",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            4240.822122434035,
+            4190.138281308726,
+            208.739600250314
+          ],
+          "rotation": [
+            -0.064154540926,
+            -0.078803079096,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-7-740eed0c-f55e-472e-b477-0c69cab2ae95",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            4188.322122434035,
+            4176.071281308726,
+            207.924752180962
+          ],
+          "rotation": [
+            0.08437049065,
+            -0.073568006571,
+            2.094395102393
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-8-b5ff90f1-f994-427b-8555-07a0b389cb5f",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            4149.889122434035,
+            4137.638281308726,
+            212.707586289925
+          ],
+          "rotation": [
+            0.080847782506,
+            0.001860772737,
+            2.617993877991
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-9-44c6dd5e-c723-4938-a7a3-c68fe7d30d4e",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            4135.822122434035,
+            4085.138281308726,
+            214.203941663459
+          ],
+          "rotation": [
+            -0.010066343351,
+            -0.043618152858,
+            3.14159265359
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-10-007b4828-4e0d-466f-8c84-6343783687d2",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            4149.889122434035,
+            4032.638281308726,
+            212.259400423464
+          ],
+          "rotation": [
+            -0.08388222766,
+            -0.07503019268,
+            3.665191429188
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-11-30bde63e-f467-4ad2-a9d9-5bd44f4a96e6",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            4188.322122434035,
+            3994.205281308726,
+            208.28706737234
+          ],
+          "rotation": [
+            -0.014292138308,
+            -0.160556268479,
+            4.188790204786
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-12-04966731-b5c7-4354-acf8-38683553bded",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            4240.822122434035,
+            3980.138281308726,
+            208.157582876452
+          ],
+          "rotation": [
+            -0.01547476356,
+            -0.144861188797,
+            4.712388980385
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-13-7fc7ffc4-2b63-4732-a510-51eebed5895c",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            4293.322122434035,
+            3994.205281308726,
+            206.137594033707
+          ],
+          "rotation": [
+            -0.088828582224,
+            -0.13238925506,
+            5.235987755983
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-14-62b091a7-ce62-4543-87f0-4330a799466f",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            4331.755122434035,
+            4032.638281308726,
+            199.900486550666
+          ],
+          "rotation": [
+            0.009440436783,
+            0.016396432878,
+            5.759586531581
+          ],
+          "active": 1
+        },
+        {
+          "id": "uplink-0cb7265a-1d51-4bd7-8f39-5da2e5ede211",
+          "token": "u",
+          "team": 2,
+          "position": [
+            4194.017421966835,
+            4048.683366291475,
+            203.945986699037
+          ],
+          "rotation": [
+            0.068193387968,
+            0.153217336828,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-1-194aa3a2-e7ff-4bc7-a19a-1ba2008a5567",
+          "token": "r",
+          "team": 1,
+          "position": [
+            1561.085470488229,
+            1587.52913571747,
+            148.154172603286
+          ],
+          "rotation": [
+            0.004563499654,
+            -0.025055631664,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-2-67a5d68f-b2de-48f6-a2c8-64dce09163e7",
+          "token": "e",
+          "team": 1,
+          "position": [
+            1561.085470488229,
+            1532.52913571747,
+            145.408676303195
+          ],
+          "rotation": [
+            -0.025137057477,
+            -0.017431971223,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-3-bc8d26e1-690b-4641-926d-9b758257003b",
+          "token": "c",
+          "subtype": "e",
+          "team": 1,
+          "position": [
+            1666.085470488229,
+            1587.52913571747,
+            152.253833845998
+          ],
+          "rotation": [
+            -0.011454467274,
+            -0.150609141201,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-4-22581d10-4198-483c-83c6-019bf36fbc3a",
+          "token": "c",
+          "subtype": "e",
+          "team": 1,
+          "position": [
+            1652.018470488229,
+            1640.02913571747,
+            150.325569053034
+          ],
+          "rotation": [
+            -0.025802052419,
+            -0.08193943074,
+            0.523598775598
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-5-42111e47-f8bc-450d-8997-81344f107a95",
+          "token": "c",
+          "subtype": "f",
+          "team": 1,
+          "position": [
+            1613.585470488229,
+            1678.46213571747,
+            152.027698702135
+          ],
+          "rotation": [
+            0.054762740287,
+            -0.146821727643,
+            1.047197551197
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-6-ad41c280-b4ed-4f16-b33f-ee51ef752c57",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            1561.085470488229,
+            1692.52913571747,
+            154.603092724011
+          ],
+          "rotation": [
+            -0.022960257842,
+            -0.207667524586,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-7-e2d6a90f-7b3d-4875-a6fb-1613e36a6601",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            1508.585470488229,
+            1678.46213571747,
+            151.155017135921
+          ],
+          "rotation": [
+            -0.107078436657,
+            -0.159262001029,
+            2.094395102393
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-8-636d5c35-4036-4544-9e86-355c0387fec9",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            1470.152470488229,
+            1640.02913571747,
+            146.992761304891
+          ],
+          "rotation": [
+            -0.043924260387,
+            -0.088237958592,
+            2.617993877991
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-9-1e359f64-99bd-4fb0-bbe8-513a7273ad13",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            1456.085470488229,
+            1587.52913571747,
+            145.327127136332
+          ],
+          "rotation": [
+            -0.027128346352,
+            -0.037419051391,
+            3.14159265359
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-10-cfa74655-22da-485c-9eca-7a26b84f29ef",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            1470.152470488229,
+            1535.02913571747,
+            146.16506135965
+          ],
+          "rotation": [
+            0.013241195249,
+            -0.061477085433,
+            3.665191429188
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-11-41bd10b0-733b-4a7a-9633-f56db5f8cc9b",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            1508.585470488229,
+            1496.59613571747,
+            147.065749779639
+          ],
+          "rotation": [
+            -0.004832822331,
+            -0.050175602946,
+            4.188790204786
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-12-113b1a84-0fab-4c1e-bfc5-6917d8f7d345",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            1561.085470488229,
+            1482.52913571747,
+            147.118595566561
+          ],
+          "rotation": [
+            0.005627581789,
+            -0.033016127271,
+            4.712388980385
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-13-96c287dc-f768-4a57-bc48-ef4cf0df8c94",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            1613.585470488229,
+            1496.59613571747,
+            148.143825907597
+          ],
+          "rotation": [
+            0.019093366446,
+            -0.034642661839,
+            5.235987755983
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-14-f304d01f-43ad-4be2-a837-0ca86bdfe9a5",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            1652.018470488229,
+            1535.02913571747,
+            150.455660887463
+          ],
+          "rotation": [
+            0.05101048135,
+            -0.068622143742,
+            5.759586531581
+          ],
+          "active": 1
+        },
+        {
+          "id": "uplink-9561d3c9-0ddf-42dc-8a9d-36bd36f32b08",
+          "token": "u",
+          "team": 1,
+          "position": [
+            1595.488423299866,
+            1624.964312134769,
+            144.821484954087
+          ],
+          "rotation": [
+            0.07921513271,
+            -0.042015556221,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-power-77b70ddc-aed8-46da-a3b8-d60cd7017420",
+          "token": "c",
+          "subtype": "e",
+          "team": 0,
+          "position": [
+            1563.931452385434,
+            3958.740086436364,
+            4.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-repair-4d50f0c0-eaff-4dd7-90ff-fa03f1f7e927",
+          "token": "c",
+          "subtype": "r",
+          "team": 0,
+          "position": [
+            1585.900268645135,
+            3957.88187003304,
+            4.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-gun-0210372d-d07d-4ad4-8c9d-55918e9283c7",
+          "token": "c",
+          "subtype": "g",
+          "team": 0,
+          "position": [
+            1564.132588553039,
+            3985.731667290778,
+            4.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-flak-341f5fae-27f0-42e3-9fec-09f3f6dcb765",
+          "token": "c",
+          "subtype": "s",
+          "team": 0,
+          "position": [
+            1582.342035809576,
+            3985.032438582253,
+            4.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-power-f92c4bc2-7b41-4df4-a7e7-1a35faed7cb1",
+          "token": "c",
+          "subtype": "e",
+          "team": 0,
+          "position": [
+            5091.311965665485,
+            921.977675709535,
+            -45.011665
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-refuel-4098e7d6-7b5e-4dda-b677-1d43c56257cc",
+          "token": "c",
+          "subtype": "f",
+          "team": 0,
+          "position": [
+            5110.239412940387,
+            922.897435367305,
+            -45.011665
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-repair-a996d261-ed19-4d26-935f-0c218c0c5122",
+          "token": "c",
+          "subtype": "r",
+          "team": 0,
+          "position": [
+            5127.571445980681,
+            923.863923229265,
+            -45.011665
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-gun-fdb7763b-550f-4448-8c4f-7b5c8df99eb0",
+          "token": "c",
+          "subtype": "g",
+          "team": 0,
+          "position": [
+            5083.364416998811,
+            893.084458473084,
+            -45.011665
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-gun-2e0fd05a-93d4-4cec-816e-694c2f212794",
+          "token": "c",
+          "subtype": "g",
+          "team": 0,
+          "position": [
+            5100.30653214735,
+            892.494158357969,
+            -45.011665
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-flak-20260d04-b621-4b8c-9fa8-4e85377ed882",
+          "token": "c",
+          "subtype": "s",
+          "team": 0,
+          "position": [
+            5119.39998086923,
+            896.393585928307,
+            -45.011665
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-flak-1bc62341-cbad-43cc-ace8-5da3abab905f",
+          "token": "c",
+          "subtype": "s",
+          "team": 0,
+          "position": [
+            5136.193430954345,
+            896.474214380835,
+            -45.011665
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-darklight-5f01b7e0-2f09-49a3-8d38-6fc5e4aef82e",
+          "token": "c",
+          "subtype": "d",
+          "team": 0,
+          "position": [
+            5141.948312516816,
+            922.213081269635,
+            -45.011665
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-darklight-c027c5f3-4e7e-4854-921f-59b4e5745da5",
+          "token": "c",
+          "subtype": "d",
+          "team": 0,
+          "position": [
+            1598.294974432347,
+            3981.924866813756,
+            4.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-missile-e56d0124-4b65-4f69-99bb-6349e1054605",
+          "token": "c",
+          "subtype": "L",
+          "team": 0,
+          "position": [
+            1605.496759437571,
+            3957.982370593877,
+            4.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        }
+      ],
+      "validation": {
+        "serviceRadius": 300,
+        "backupRadius": 80,
+        "maxSlopeDegrees": 22,
+        "minSpacing": 8
+      },
+      "updatedAt": "2026-08-31T00:40:41.405Z"
+    }
+  ]
+}

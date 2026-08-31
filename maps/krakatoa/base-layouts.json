@@ -1,0 +1,526 @@
+{
+  "$schema": "https://raw.githubusercontent.com/blackwatergaming/wulfram-mapeditor/main/public/schemas/wulfram-base-layout-collection-v1.schema.json",
+  "format": "wulfram-base-layout-collection",
+  "version": 1,
+  "activeLayoutId": "layout-cb5bad3e-dfc1-4633-a549-7d30d99f5e9b",
+  "layouts": [
+    {
+      "id": "layout-cb5bad3e-dfc1-4633-a549-7d30d99f5e9b",
+      "name": "BuildABase",
+      "metadata": {},
+      "entities": [
+        {
+          "id": "curated-base-in-a-box-1-6fb42922-fc3f-4872-bedc-612d735f070c",
+          "token": "r",
+          "team": 1,
+          "position": [
+            855.886076353757,
+            1612.417680581821,
+            19.689461789716
+          ],
+          "rotation": [
+            0.034892564274,
+            0.072063926614,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-2-c7a4afb4-3018-4139-8f28-bef3ae3310b0",
+          "token": "e",
+          "team": 1,
+          "position": [
+            910.886076353757,
+            1612.417680581821,
+            13.509836967293
+          ],
+          "rotation": [
+            0.037647157753,
+            0.050185670929,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-3-e813f2f9-e4f3-4414-862b-a3ddbde0bba5",
+          "token": "c",
+          "subtype": "e",
+          "team": 1,
+          "position": [
+            855.886076353757,
+            1717.417680581821,
+            12.192062535153
+          ],
+          "rotation": [
+            0.034559471739,
+            -0.034580128421,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-4-0bc13b2b-a392-4557-a87d-162e90374cdc",
+          "token": "c",
+          "subtype": "e",
+          "team": 1,
+          "position": [
+            803.386076353757,
+            1703.350680581821,
+            12.28775530242
+          ],
+          "rotation": [
+            0.108351107828,
+            0.009927853356,
+            2.094395102393
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-5-5d59ab8d-4545-4ea7-ae24-2cf6ef28830f",
+          "token": "c",
+          "subtype": "f",
+          "team": 1,
+          "position": [
+            764.953076353757,
+            1664.917680581821,
+            16.621698750293
+          ],
+          "rotation": [
+            0.131105684462,
+            0.074182382868,
+            2.617993877992
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-6-0441c909-25ac-4b07-824f-66ce5ee6e6aa",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            750.886076353757,
+            1612.417680581821,
+            21.597863889598
+          ],
+          "rotation": [
+            0.050878278064,
+            -0.036988162334,
+            3.14159265359
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-7-7c40a65d-086d-4ea0-9e64-6e3d737585ab",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            764.953076353757,
+            1559.917680581821,
+            23.516458946029
+          ],
+          "rotation": [
+            -0.025824326325,
+            -0.070813144934,
+            3.665191429188
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-8-5b01722a-74eb-4553-b0cd-3f8deae2975a",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            803.386076353757,
+            1521.484680581821,
+            25.013952764025
+          ],
+          "rotation": [
+            0.001925564407,
+            -0.001957900992,
+            4.188790204786
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-9-2ca8dbfd-7cdf-4d35-9fd1-7005414dd137",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            855.886076353757,
+            1507.417680581821,
+            22.735893733371
+          ],
+          "rotation": [
+            -0.091175085507,
+            0,
+            4.712388980385
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-10-84f6d103-0cd2-422b-91ba-9ca008b217b3",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            908.386076353757,
+            1521.484680581821,
+            18.570493383033
+          ],
+          "rotation": [
+            -0.066409965987,
+            -0.013569723321,
+            5.235987755983
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-11-c0d0f84d-3bf0-43ac-bce8-0abfcf5e0b74",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            946.819076353757,
+            1559.917680581821,
+            14.367289918233
+          ],
+          "rotation": [
+            -0.063102262649,
+            0.013008741057,
+            5.759586531581
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-12-0cc22378-ef94-4a0f-a9eb-d44dac47499c",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            960.886076353757,
+            1612.417680581821,
+            13.096822564194
+          ],
+          "rotation": [
+            -0.008173090183,
+            0.035117246675,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-13-30958a09-0b81-4c5d-95a2-f0e3e6915f04",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            946.819076353757,
+            1664.917680581821,
+            10.285251430455
+          ],
+          "rotation": [
+            -0.005466218722,
+            0.105391268411,
+            0.523598775598
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-14-54648e27-f179-4878-b3aa-a91047e56841",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            908.386076353757,
+            1703.350680581821,
+            9.740428441051
+          ],
+          "rotation": [
+            -0.028365469044,
+            0.056791739002,
+            1.047197551196
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-1-ef998492-e9a2-432e-b80a-31c80d39ee60",
+          "token": "r",
+          "team": 2,
+          "position": [
+            3623.491307298284,
+            2471.095716094932,
+            25.198680412874
+          ],
+          "rotation": [
+            -0.035849716707,
+            -0.027392959652,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-2-bd032cf8-05dd-48a5-af8d-48f22ff5772d",
+          "token": "e",
+          "team": 2,
+          "position": [
+            3678.491307298284,
+            2471.095716094932,
+            23.389966852913
+          ],
+          "rotation": [
+            -0.018275567816,
+            -0.091175085507,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-3-8664beb9-c3e6-4fe9-87e1-c1ee3fb4c657",
+          "token": "c",
+          "subtype": "e",
+          "team": 2,
+          "position": [
+            3623.491307298284,
+            2576.095716094932,
+            24.621225367453
+          ],
+          "rotation": [
+            -0.003911433925,
+            -0.075515525384,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-4-22dd8fa1-46b4-42c4-91d5-c308fd3fee36",
+          "token": "c",
+          "subtype": "e",
+          "team": 2,
+          "position": [
+            3570.991307298284,
+            2562.028716094932,
+            23.674546948428
+          ],
+          "rotation": [
+            -0.028420150966,
+            -0.071343086137,
+            2.094395102393
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-5-a0ec028a-4aed-4fd5-8f46-78ee116231ed",
+          "token": "c",
+          "subtype": "f",
+          "team": 2,
+          "position": [
+            3532.558307298284,
+            2523.595716094932,
+            24.997733059739
+          ],
+          "rotation": [
+            0.000710362853,
+            -0.000710363032,
+            2.617993877992
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-6-c6baffeb-2e48-4eb9-bfe8-8de84e723120",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            3518.491307298284,
+            2471.095716094932,
+            24.988335
+          ],
+          "rotation": [
+            -0.034879845738,
+            -0.034901082593,
+            3.14159265359
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-7-6a1d3cd5-1b55-4aea-8eab-ee65afd00058",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            3532.558307298284,
+            2418.595716094932,
+            22.011575475585
+          ],
+          "rotation": [
+            -0.045540147607,
+            -0.079014616225,
+            3.665191429188
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-8-68b3de7c-fd4b-4430-a605-8ebf0fb8504a",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            3570.991307298284,
+            2380.162716094932,
+            20.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            4.188790204786
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-9-733ed50b-aad9-4862-b195-f8a475029a0f",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            3623.491307298284,
+            2366.095716094932,
+            23.990145215679
+          ],
+          "rotation": [
+            0.090506936731,
+            -0.091038904863,
+            4.712388980385
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-10-0b37d071-4d44-4e4a-bced-64a269112d78",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            3675.991307298284,
+            2380.162716094932,
+            27.402316124687
+          ],
+          "rotation": [
+            -0.011576452218,
+            -0.099165108252,
+            5.235987755983
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-11-d471d0aa-9e7a-448f-86d8-ec089194a1ee",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            3714.424307298284,
+            2418.595716094932,
+            25.036429572734
+          ],
+          "rotation": [
+            0.028420150967,
+            -0.071343086137,
+            5.759586531581
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-12-2b43cd07-558e-45a5-bd1b-fb7b9592e1dc",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            3728.491307298284,
+            2471.095716094932,
+            25.878968810129
+          ],
+          "rotation": [
+            0,
+            -0.091175085507,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-13-455f0dd3-e19e-4b2b-aabd-9eb3d8f8d91d",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            3714.424307298284,
+            2523.595716094932,
+            25.885161591014
+          ],
+          "rotation": [
+            -0.024469131042,
+            -0.033923743403,
+            0.523598775598
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-14-bd07b7da-95bf-4998-ab7d-ff54d1d475a4",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            3675.991307298284,
+            2562.028716094932,
+            25.610156247734
+          ],
+          "rotation": [
+            -0.045054252153,
+            -0.025396843592,
+            1.047197551196
+          ],
+          "active": 1
+        },
+        {
+          "id": "uplink-f29c7200-0001-470b-b3ed-66c7c2319161",
+          "token": "u",
+          "team": 2,
+          "position": [
+            4695.320614397241,
+            925.106031041963,
+            91.301762
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "uplink-f1ab87c5-72c6-4a19-bc6c-4492e694e6d6",
+          "token": "u",
+          "team": 1,
+          "position": [
+            885.899465077612,
+            4671.499249540549,
+            91.328348
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        }
+      ],
+      "validation": {
+        "serviceRadius": 300,
+        "backupRadius": 80,
+        "maxSlopeDegrees": 22,
+        "minSpacing": 8
+      },
+      "updatedAt": "2026-08-31T00:57:27.436Z"
+    }
+  ]
+}

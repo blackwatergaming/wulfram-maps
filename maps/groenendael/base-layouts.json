@@ -1,0 +1,1202 @@
+{
+  "$schema": "https://raw.githubusercontent.com/blackwatergaming/wulfram-mapeditor/main/public/schemas/wulfram-base-layout-collection-v1.schema.json",
+  "format": "wulfram-base-layout-collection",
+  "version": 1,
+  "activeLayoutId": "layout-6c3adbb6-e069-4261-a4c4-b9dd0038ef11",
+  "layouts": [
+    {
+      "id": "layout-6c3adbb6-e069-4261-a4c4-b9dd0038ef11",
+      "name": "BuildABase",
+      "metadata": {},
+      "entities": [
+        {
+          "id": "curated-base-in-a-box-1-247fc472-f80c-463a-b036-400596ac4589",
+          "token": "r",
+          "team": 1,
+          "position": [
+            2340.8126397793,
+            2821.434985239285,
+            363.252807
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-2-be37211b-a189-4c44-a173-051cc6d3f26d",
+          "token": "e",
+          "team": 1,
+          "position": [
+            2395.8126397793,
+            2821.434985239285,
+            360.894255
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-3-c4fde89a-5dd5-4186-ac29-0b292481cc71",
+          "token": "c",
+          "subtype": "e",
+          "team": 1,
+          "position": [
+            2340.8126397793,
+            2926.434985239285,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-4-494450a8-746e-4818-baee-2e97204270aa",
+          "token": "c",
+          "subtype": "e",
+          "team": 1,
+          "position": [
+            2288.3126397793,
+            2912.367985239285,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            2.094395102393
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-5-75f09031-823f-40a2-b279-a69c7c32bb68",
+          "token": "c",
+          "subtype": "f",
+          "team": 1,
+          "position": [
+            2249.8796397793,
+            2873.934985239285,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            2.617993877992
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-6-78b9bb71-58c6-4f57-a523-4522b54eae07",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            2235.8126397793,
+            2821.434985239285,
+            364.024411079677
+          ],
+          "rotation": [
+            0,
+            -0.225579494029,
+            3.14159265359
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-7-088f5483-ba96-466e-adee-dad44cee7f3b",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            2249.8796397793,
+            2768.934985239285,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            3.665191429188
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-8-079ae421-c4d6-44c5-b874-59c418ebcc94",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            2288.3126397793,
+            2730.501985239285,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            4.188790204786
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-9-e50dc9fc-fc6d-47e2-863c-43939e643d14",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            2340.8126397793,
+            2716.434985239285,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            4.712388980385
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-10-eb75788d-f137-4075-9b39-d17525f694a0",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            2393.3126397793,
+            2730.501985239285,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            5.235987755983
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-11-6f944abe-8198-49df-8ca4-854489eacf89",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            2431.7456397793,
+            2768.934985239285,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            5.759586531581
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-12-abb9abd3-2dd9-4abb-8a24-c17ad9f44454",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            2445.8126397793,
+            2821.434985239285,
+            369.240326047937
+          ],
+          "rotation": [
+            0,
+            -0.575756910186,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-13-022943e2-35f5-43e8-aadc-aff69d82f3e2",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            2431.7456397793,
+            2873.934985239285,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0.523598775598
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-14-8346a8fa-b377-4453-b7fc-f08f2041e79c",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            2393.3126397793,
+            2912.367985239285,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            1.047197551196
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-1-e74763fd-4866-41c0-b4b5-02822b089d67",
+          "token": "r",
+          "team": 2,
+          "position": [
+            3288.826271664295,
+            2808.145295939158,
+            363.5286
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-2-87137789-817f-41bd-ab02-5b66495224ab",
+          "token": "e",
+          "team": 2,
+          "position": [
+            3343.826271664295,
+            2808.145295939158,
+            361.397772
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-3-43d8a5f4-3b0b-46ca-9459-a8431feb811f",
+          "token": "c",
+          "subtype": "e",
+          "team": 2,
+          "position": [
+            3288.826271664295,
+            2913.145295939158,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-4-372f593f-bc22-4caf-8896-5e55ed693e66",
+          "token": "c",
+          "subtype": "e",
+          "team": 2,
+          "position": [
+            3236.326271664295,
+            2899.078295939158,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            2.094395102393
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-5-f37cae9d-1109-4e7a-99c7-0d5cbcb981e1",
+          "token": "c",
+          "subtype": "f",
+          "team": 2,
+          "position": [
+            3197.893271664295,
+            2860.645295939158,
+            375.96209865734
+          ],
+          "rotation": [
+            0.34896370362,
+            -0.529255764344,
+            2.617993877992
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-6-8de8a9ee-935a-4761-aabe-88404c42298a",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            3183.826271664295,
+            2808.145295939158,
+            390.929641064298
+          ],
+          "rotation": [
+            0,
+            -1.250751285241,
+            3.14159265359
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-7-fce74649-998b-40a6-9c8c-19197dc65325",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            3197.893271664295,
+            2755.645295939158,
+            376.269858010058
+          ],
+          "rotation": [
+            -0.339815252653,
+            -0.514606783571,
+            3.665191429188
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-8-c92ca568-836e-42cc-af19-4c3fca6c1085",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            3236.326271664295,
+            2717.212295939158,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            4.188790204786
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-9-fb684374-b9d3-45ba-adaf-d59021685eb6",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            3288.826271664295,
+            2703.145295939158,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            4.712388980385
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-10-0c26942d-a558-49dc-b155-ec97cdfa9def",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            3341.326271664295,
+            2717.212295939158,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            5.235987755983
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-11-a799d88f-caf4-4223-8c0f-55b82c2a5426",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            3379.759271664295,
+            2755.645295939158,
+            375.110993349542
+          ],
+          "rotation": [
+            0.387882793921,
+            -0.794382318387,
+            5.759586531581
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-12-8fe18273-1f3d-4a3d-9398-de9dad9c9e64",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            3393.826271664295,
+            2808.145295939158,
+            390.793275035277
+          ],
+          "rotation": [
+            0,
+            -0.871347769843,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-13-1eb183a3-9ac9-47ed-bd4b-670f134e7058",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            3379.759271664295,
+            2860.645295939158,
+            375.110993349541
+          ],
+          "rotation": [
+            -0.387882793921,
+            -0.794382318387,
+            0.523598775598
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-14-46581c83-dec7-4796-ac49-949c5acb375b",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            3341.326271664295,
+            2899.078295939158,
+            360.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            1.047197551196
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-1-de19e2dd-6e88-425b-aae3-8ec96b9722a1",
+          "token": "r",
+          "team": 2,
+          "position": [
+            5142.938808212846,
+            2374.212587509908,
+            271.5286
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-2-c0f61b8b-f410-4839-88cd-7f77d2cbaad5",
+          "token": "e",
+          "team": 2,
+          "position": [
+            5197.938808212846,
+            2374.212587509908,
+            269.397772
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-3-5ac26a5a-3c56-4076-8acc-6c4010956015",
+          "token": "c",
+          "subtype": "e",
+          "team": 2,
+          "position": [
+            5142.938808212846,
+            2479.212587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-4-8be2f642-2746-442f-ba91-b1837c895a0e",
+          "token": "c",
+          "subtype": "e",
+          "team": 2,
+          "position": [
+            5090.438808212846,
+            2465.145587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            2.094395102393
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-5-aea0a53d-107b-4943-93af-ae4bbbdc7dd7",
+          "token": "c",
+          "subtype": "f",
+          "team": 2,
+          "position": [
+            5052.005808212846,
+            2426.712587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            2.617993877992
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-6-06f3208d-32fe-46bc-bec6-3f997cdfbd10",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            5037.938808212846,
+            2374.212587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            3.14159265359
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-7-d0d75a26-d524-46b8-8568-842b7992ebad",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            5052.005808212846,
+            2321.712587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            3.665191429188
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-8-c566284f-cada-4c76-aea7-e36d6abf5cf7",
+          "token": "c",
+          "subtype": "p",
+          "team": 2,
+          "position": [
+            5090.438808212846,
+            2283.279587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            4.188790204786
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-9-f81f0e5e-894d-4610-956e-280faedabf38",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            5142.938808212846,
+            2269.212587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            4.712388980385
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-10-1bb11a2d-68c2-41b4-aa9c-3b9d922d16f9",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            5195.438808212846,
+            2283.279587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            5.235987755983
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-11-ab770125-a70a-4f18-978c-8819c8522ae0",
+          "token": "c",
+          "subtype": "g",
+          "team": 2,
+          "position": [
+            5233.871808212846,
+            2321.712587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            5.759586531581
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-12-89d65014-1a24-44b4-a62e-0c2bcc9d8425",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            5247.938808212846,
+            2374.212587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-13-f1693dc2-6451-4f8b-997d-2dd4acc9d740",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            5233.871808212846,
+            2426.712587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0.523598775598
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-14-034b13fd-1018-4bea-9645-b1d179c7ec8a",
+          "token": "c",
+          "subtype": "s",
+          "team": 2,
+          "position": [
+            5195.438808212846,
+            2465.145587509908,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            1.047197551196
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-1-acf5d1a7-bc27-434e-8f72-22a7d8ec16af",
+          "token": "r",
+          "team": 1,
+          "position": [
+            378.708934598439,
+            2433.268340651436,
+            271.252807
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-2-ed3389e8-62bf-48c8-b3eb-65d893cfa2de",
+          "token": "e",
+          "team": 1,
+          "position": [
+            433.708934598439,
+            2433.268340651436,
+            268.894255
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-3-e905086f-ca90-4448-85f1-db10d329a992",
+          "token": "c",
+          "subtype": "e",
+          "team": 1,
+          "position": [
+            378.708934598439,
+            2538.268340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            1.570796326795
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-4-0e37b0a7-a124-4416-8e0a-05113fcd2f3f",
+          "token": "c",
+          "subtype": "e",
+          "team": 1,
+          "position": [
+            326.208934598439,
+            2524.201340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            2.094395102393
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-5-dfd2c119-2347-46f3-b0f9-73be59bc2532",
+          "token": "c",
+          "subtype": "f",
+          "team": 1,
+          "position": [
+            287.775934598439,
+            2485.768340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            2.617993877992
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-6-f452f658-6b7a-408b-ad45-bbf245ff6a3a",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            273.708934598439,
+            2433.268340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            3.14159265359
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-7-fa1e276f-65fe-4772-91a5-2825b718f04a",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            287.775934598439,
+            2380.768340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            3.665191429188
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-8-acd1f9e7-63e8-45bb-a540-d95c88489515",
+          "token": "c",
+          "subtype": "p",
+          "team": 1,
+          "position": [
+            326.208934598439,
+            2342.335340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            4.188790204786
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-9-fb7d4a15-49c6-4203-8dea-a13fda0fb49c",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            378.708934598439,
+            2328.268340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            4.712388980385
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-10-5f7c024a-51b7-4680-844d-4a00124e1e73",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            431.208934598439,
+            2342.335340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            5.235987755983
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-11-021cb236-f0e4-4fe5-a047-6d6970a291cb",
+          "token": "c",
+          "subtype": "g",
+          "team": 1,
+          "position": [
+            469.641934598439,
+            2380.768340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            5.759586531581
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-12-deecb837-b437-40d0-9a49-55689c6f8a85",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            483.708934598439,
+            2433.268340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-13-66057098-40e5-4710-99d6-0b209452e130",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            469.641934598439,
+            2485.768340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0.523598775598
+          ],
+          "active": 1
+        },
+        {
+          "id": "curated-base-in-a-box-14-4a033ca7-e488-496f-83f6-49d5107cfe9c",
+          "token": "c",
+          "subtype": "s",
+          "team": 1,
+          "position": [
+            431.208934598439,
+            2524.201340651436,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            1.047197551196
+          ],
+          "active": 1
+        },
+        {
+          "id": "uplink-09ce1c27-6647-4bcf-b20b-58a1c3bdff54",
+          "token": "u",
+          "team": 1,
+          "position": [
+            433.15268850339,
+            2409.459828936228,
+            267.328348
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "uplink-7e285753-5c95-4be9-97a5-ca94f8f4f63d",
+          "token": "u",
+          "team": 2,
+          "position": [
+            5098.638956217897,
+            2376.878063050129,
+            267.301762
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-b2d85f1e-6f37-4c30-bb24-b71574ac79cb",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            456.312648774745,
+            357.588239660944,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-570907d7-976f-471b-b215-2b9bb7587eb0",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            486.119287630798,
+            359.290346384221,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-4ad179df-d8d7-4ad9-80cd-3eeba695c0cb",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            469.457910040211,
+            394.21204294846,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-7df8cb77-2be5-4200-a735-8f1802edf31f",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            5198.338427874376,
+            5168.07468267989,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-e549579d-0e94-4efe-80cb-a3399e0c6b8b",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            5172.266482809056,
+            5184.443952178572,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-a70be12f-0102-4ac2-b9fc-1ed51534664c",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            5130.204669914945,
+            5135.733605600744,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-09a98dc3-4985-4c1a-8096-b053ca831dd3",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            2734.593442675045,
+            5272.248311795665,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-06501bf1-d6e8-414a-934b-aa923fcaa193",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            2773.810999612802,
+            5282.515420994887,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-2e6bff9d-538f-4d7b-826d-07f77bf32a38",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            2731.89963422153,
+            5323.813738271854,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-33c88a1d-20cc-4c51-a718-6e163e84b54f",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            2693.929569207603,
+            282.425189635552,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-5b89cc3c-ed4a-4094-b2a2-635c82a0728b",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            2718.422140335832,
+            315.741207712929,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        },
+        {
+          "id": "cargo-skypump-6bd4866f-fe20-4b98-8fbb-853f59bec171",
+          "token": "c",
+          "subtype": "p",
+          "team": 0,
+          "position": [
+            2678.48121954112,
+            351.861681327933,
+            268.988335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "active": 1
+        }
+      ],
+      "validation": {
+        "serviceRadius": 300,
+        "backupRadius": 80,
+        "maxSlopeDegrees": 22,
+        "minSpacing": 8
+      },
+      "updatedAt": "2026-08-31T00:47:02.277Z"
+    }
+  ]
+}
