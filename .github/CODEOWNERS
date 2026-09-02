@@ -1,0 +1,5 @@
+# Every change to the release source requires approval from a repository admin.
+* @cyberbalsa @0xLogic
+
+# Keep the ownership and automation policy itself under the same review gate.
+/.github/ @cyberbalsa @0xLogic

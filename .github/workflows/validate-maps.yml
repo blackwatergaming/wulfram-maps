@@ -1,0 +1,49 @@
+name: Validate maps
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-maps-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate maps
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out proposed map sources
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          path: wulfram-maps
+          persist-credentials: false
+
+      - name: Check out the pinned map compiler
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: blackwatergaming/wulfram-mapeditor
+          ref: ff0ab21212e127e49326216a9c78f633bee4dfbd
+          path: wulfram-mapeditor
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 22.13.0
+          cache: npm
+          cache-dependency-path: wulfram-mapeditor/package-lock.json
+
+      - name: Install compiler dependencies
+        working-directory: wulfram-mapeditor
+        run: npm ci --ignore-scripts --no-audit --no-fund
+
+      - name: Compile every canonical map
+        working-directory: wulfram-mapeditor
+        run: npm run maps:compile -- --all --repo ../wulfram-maps --out "$RUNNER_TEMP/compiled-maps"

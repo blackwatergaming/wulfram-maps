@@ -16,6 +16,9 @@ The authoritative schema is [`schemas/wulfram-map-source-v1.schema.json`](schema
 The format is designed so terrain painting, elevation changes, and unit moves
 produce focused text diffs that can be reviewed and merged normally.
 
+Community map submissions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md)
+for the fork, validation, pull-request, and administrator-review workflow.
+
 ## Edit and publish
 
 Clone this repository beside
