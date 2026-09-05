@@ -32,7 +32,7 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
-      - name: Verify the release tag belongs to reviewed main history
+      - name: Verify the release tag belongs to main
         working-directory: wulfram-maps
         run: git merge-base --is-ancestor HEAD origin/main
 
@@ -40,7 +40,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: blackwatergaming/wulfram-mapeditor
-          ref: ff0ab21212e127e49326216a9c78f633bee4dfbd
+          ref: da7663e897a5cb6e965b3637fd06870dbaac9096 # v0.6.0
           path: wulfram-mapeditor
           persist-credentials: false
 

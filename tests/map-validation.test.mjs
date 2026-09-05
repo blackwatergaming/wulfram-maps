@@ -7,6 +7,7 @@ import test from 'node:test';
 
 import { createMapSourceFiles } from '../../wulfram-mapeditor/lib/map-source.ts';
 import { readMapArchive } from '../../wulfram-mapeditor/lib/map-package.ts';
+import { DEFAULT_SKYBOX, SKYBOX_NAMES } from '../../wulfram-mapeditor/lib/sky-settings.ts';
 import {
   createBlankProject,
   serializeState,
@@ -296,6 +297,7 @@ test('malformed map, terrain, entity, and layout sources fail validation', async
     ['bad JSON', (files) => { files['map.json'] = '{'; }],
     ['unsupported format', (files) => editJson(files, 'map.json', (map) => { map.version = 99; })],
     ['bad dimensions', (files) => editJson(files, 'map.json', (map) => { map.terrain.worldWidth = 0; })],
+    ['unknown sky', (files) => editJson(files, 'map.json', (map) => { map.terrain.skyName = 'missing-sky'; })],
     ['empty name', (files) => editJson(files, 'map.json', (map) => { map.name = ' '; })],
     ['negative settings', (files) => editJson(files, 'map.json', (map) => { map.validation.minSpacing = -1; })],
     ['bad slope limit', (files) => editJson(files, 'base-layouts.json', (value) => { value.layouts[0].validation.maxSlopeDegrees = 91; })],
@@ -369,4 +371,30 @@ test('release artifacts are created only after every state passes', async (conte
   const entries = await readMapArchive(fs.readFileSync(artifacts.compiled[0].output));
   const layouts = entries.find((entry) => entry.name.endsWith('/base-layouts.json'));
   assert.equal(JSON.parse(layouts.text).layouts.length, 2);
+});
+
+test('release packages preserve every allowed sky and the legacy default', async (context) => {
+  const repository = repositoryFixture(context);
+  const schema = JSON.parse(fs.readFileSync(new URL('../schemas/wulfram-map-source-v1.schema.json', import.meta.url)));
+  assert.deepEqual(schema.properties.terrain.properties.skyName.enum, [...SKYBOX_NAMES]);
+  for (const skyName of SKYBOX_NAMES) {
+    const project = fixture();
+    project.terrain.skyName = skyName;
+    writeMap(repository, skyName, createMapSourceFiles(project));
+  }
+  const legacy = fixture();
+  delete legacy.terrain.skyName;
+  writeMap(repository, 'legacy-default', createMapSourceFiles(legacy));
+
+  const artifacts = await buildValidatedRelease(repository, 'v1.0.0', path.join(repository, 'release'));
+  assert.equal(artifacts.compiled.length, SKYBOX_NAMES.length + 1);
+  for (const artifact of artifacts.compiled) {
+    const entries = await readMapArchive(fs.readFileSync(artifact.output));
+    const startup = entries.find((entry) => entry.name.endsWith('/start_script'));
+    const expected = artifact.slug === 'legacy-default' ? DEFAULT_SKYBOX : artifact.slug;
+    assert.ok(startup, `${artifact.slug} needs a game startup script`);
+    assert.equal(startup.text.split('\n')[0], `sky_names "${expected}"`);
+    const project = JSON.parse(entries.find((entry) => entry.name.endsWith('/wulfram-project.json')).text);
+    assert.equal(project.terrain.skyName, artifact.slug === 'legacy-default' ? undefined : expected);
+  }
 });

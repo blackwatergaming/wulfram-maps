@@ -1,8 +1,9 @@
 # Contributing maps
 
 Map contributions use GitHub's fork-and-pull-request workflow. The `main`
-branch is the source for releases and accepts changes only through reviewed
-pull requests.
+branch is the source for releases and accepts changes through validated
+pull requests. Contributor changes require administrator review; either
+repository administrator can complete their own release PR.
 
 ## One-time setup
 
@@ -104,19 +105,22 @@ above.
 
 ## Review and release policy
 
-Every pull request must pass **Validate maps**, compile successfully, resolve all review conversations,
-and receive approval from a repository administrator. New commits invalidate
-earlier approvals, and the person who made the latest change cannot supply the
-final approval. Only an administrator can merge into `main`; releases are built
-from reviewed `main` commits.
+Every pull request must pass **Validate maps**, compile successfully, and resolve
+all review conversations. Contributor pull requests also require approval from a
+repository administrator; new commits invalidate earlier approvals, and the
+person who made the latest change cannot supply that approval. Administrators
+`cyberbalsa` and `0xLogic` have a review exception so either can complete their
+own release PR. Required CI checks, administrator enforcement, and force-push
+and deletion restrictions remain enabled. Only an administrator can merge into
+`main`; releases are built from validated `main` commits.
 
 Keep **Validate maps** configured as a required status check in the `main`
 branch protection or repository ruleset. The workflow runs on pull requests,
 merge queue entries, pushes to `main`, and manual dispatches. Human approval
 does not replace this required check.
 
-To publish a release after the checks pass, tag the reviewed commit from the
-maps checkout:
+One administrator can publish a release after the checks pass; a second
+administrator is not required. Tag the merged commit from the maps checkout:
 
 ```bash
 git switch main

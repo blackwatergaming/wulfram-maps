@@ -53,9 +53,9 @@ function usesBackface(tag) {
   const value = tag?.trim().toLowerCase();
   if (!value?.startsWith('+')) return value === 'backface';
 
-  // Match the editor's lib/terrain-textures.ts transition-tag format. The
-  // pinned compiler predates that helper: each layer is template/name/mask,
-  // and the stored mask is complemented (15 means no occupied corners).
+  // Match the editor's lib/terrain-textures.ts transition-tag format: each
+  // layer is template/name/mask, and the stored mask is complemented
+  // (15 means no occupied corners). Compare names case-insensitively here.
   const tokens = value.slice(1).trim().split(/\s+/);
   if (tokens.length % 3 !== 0 || tokens.length > 12) return false;
   let found = false;

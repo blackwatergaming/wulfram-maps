@@ -7,8 +7,8 @@ artifacts.
 
 Each `maps/<slug>/` directory contains:
 
-- `map.json` — dimensions, validation settings, and source metadata
-- `terrain.tsv` — one terrain pixel/vertex per line
+- `map.json` — dimensions, optional skybox, validation settings, and source metadata
+- `terrain.tsv` — terrain height and texture arrays in their original serialized order
 - `entities.jsonl` — one base unit per line
 - `base-layouts.json` — all named states, when present
 - `tagmap.txt` and `tagmap2.txt` — original texture mappings
@@ -16,6 +16,15 @@ Each `maps/<slug>/` directory contains:
 The authoritative schema is [`schemas/wulfram-map-source-v1.schema.json`](schemas/wulfram-map-source-v1.schema.json).
 The format is designed so terrain painting, elevation changes, and unit moves
 produce focused text diffs that can be reviewed and merged normally.
+
+Heights use a `width × height` vertex grid. Texture IDs use a separate packed
+`(width - 1) × (height - 1)` cell grid, followed by preserved padding. The two
+arrays share TSV rows but have different row strides in the game.
+
+The editor's **Terrain → Skybox** setting saves an optional `terrain.skyName`
+in `map.json`. All 11 original Wulfram skies are supported; maps without a
+selection use `2starset`. The compiler writes the selection to the game
+package's `start_script`. CI and release builds use the pinned v0.6.0 editor.
 
 Community map submissions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md)
 for the fork, validation, pull-request, and administrator-review workflow.
@@ -76,7 +85,8 @@ npm run validate -- --report dist/validation-report.json
 ```
 
 Releases use the [Release maps workflow](.github/workflows/release-maps.yml).
-Push an annotated `v*` tag on a reviewed `main` commit as described in
+One administrator can merge a validated release PR and publish its annotated
+`v*` tag on `main`, as described in
 [CONTRIBUTING.md](CONTRIBUTING.md). The workflow requires the same validation and
 compilation checks as a pull request before building and publishing each Wulfram
 package, the collection ZIP, and `SHA256SUMS.txt`. `npm run release:build -- v1.0.0`

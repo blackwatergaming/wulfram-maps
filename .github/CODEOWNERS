@@ -1,5 +1,6 @@
-# Every change to the release source requires approval from a repository admin.
+# Contributor changes require approval from a repository admin.
+# Admins may complete their own validated release PR under the review exception.
 * @cyberbalsa @0xLogic
 
-# Keep the ownership and automation policy itself under the same review gate.
+# Keep ownership, validation, and release automation under the same review gate.
 /.github/ @cyberbalsa @0xLogic
