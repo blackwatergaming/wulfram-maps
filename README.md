@@ -73,10 +73,10 @@ Terrain cells using `backface`, including blended layers, produce an unpainted
 terrain warning with the affected cell count and first location. Unused texture
 tags and padding do not trigger it, and the warning does not block builds.
 
-Source data can stay in the repository while a map is incomplete. There are no
-stock exemptions for the team infrastructure requirement: `arena_alley`,
-`arena_city`, `trainers_maze`, and `meltdown-meltdown` currently block approval
-and release builds until bases are supplied for both teams.
+The current collection contains 43 maps. `arena_alley`, `arena_city`,
+`trainers_maze`, and `meltdown-meltdown` are temporarily removed because they
+lack the required bases for both teams. Their sources remain in Git history;
+restoring them requires supplying valid team bases and passing the same checks.
 
 To inspect all findings as JSON:
 

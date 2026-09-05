@@ -80,11 +80,10 @@ terrain** warning. This includes blended texture layers. The warning reports
 the affected cell count and first location in `terrain.tsv`; unused texture
 tags and padding are ignored. Paint those cells in the editor to clear it.
 
-There are no exceptions for stock states missing required team bases. The
-existing `arena_alley`, `arena_city`, `trainers_maze`, and `meltdown-meltdown`
-sources remain in Git, but builds containing them are rejected until their
-states satisfy the requirements. A valid active state cannot hide an invalid
-inactive state, and no map is silently excluded from an all-maps build.
+There are no exceptions for stock states missing required team bases. Removed
+maps must satisfy the same requirements before being restored. A valid active
+state cannot hide an invalid inactive state, and every map in `maps/` is included
+in an all-maps build.
 
 ## Open the pull request
 
