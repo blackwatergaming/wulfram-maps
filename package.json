@@ -1,0 +1,13 @@
+{
+  "name": "wulfram-maps",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "validate": "node --experimental-strip-types tools/validate-maps.mjs",
+    "release:build": "node --experimental-strip-types tools/build-release.mjs"
+  }
+}

@@ -54,9 +54,36 @@ commit compiled ZIP files or the ignored `dist/` directory.
 Validate all sources before committing:
 
 ```bash
+cd ../wulfram-maps
+npm test
+npm run validate
 cd ../wulfram-mapeditor
 npm run maps:compile -- --all
 ```
+
+The validation command checks every map and every state, including inactive
+layouts and original state-file variants. Each state must contain an uplink and
+at least one repair pad within `max(0, serviceRadius - 10)` world units of a
+same-team deployed power cell for **each of teams 1 and 2**, using that layout's
+validation settings. Cargo and neutral units do not satisfy those requirements.
+
+CI also checks source parsing, terrain dimensions and vertex rows, entity and
+layout structure, validation-setting ranges, map boundaries, and consistency
+between `entities.jsonl` and the active layout. Diagnostics identify the source
+file, layout, and unit. Slope, overlap, individual-unit power, and buried-unit
+findings are advisory, since stock states can legitimately trigger the editor's
+placement heuristics. Warnings do not fail CI.
+
+Any terrain cell using the `backface` texture also produces an **unpainted
+terrain** warning. This includes blended texture layers. The warning reports
+the affected cell count and first location in `terrain.tsv`; unused texture
+tags and padding are ignored. Paint those cells in the editor to clear it.
+
+There are no exceptions for stock states missing required team bases. The
+existing `arena_alley`, `arena_city`, `trainers_maze`, and `meltdown-meltdown`
+sources remain in Git, but builds containing them are rejected until their
+states satisfy the requirements. A valid active state cannot hide an invalid
+inactive state, and no map is silently excluded from an all-maps build.
 
 ## Open the pull request
 
@@ -77,8 +104,35 @@ above.
 
 ## Review and release policy
 
-Every pull request must compile successfully, resolve all review conversations,
+Every pull request must pass **Validate maps**, compile successfully, resolve all review conversations,
 and receive approval from a repository administrator. New commits invalidate
 earlier approvals, and the person who made the latest change cannot supply the
 final approval. Only an administrator can merge into `main`; releases are built
 from reviewed `main` commits.
+
+Keep **Validate maps** configured as a required status check in the `main`
+branch protection or repository ruleset. The workflow runs on pull requests,
+merge queue entries, pushes to `main`, and manual dispatches. Human approval
+does not replace this required check.
+
+To publish a release after the checks pass, tag the reviewed commit from the
+maps checkout:
+
+```bash
+git switch main
+git pull --ff-only
+git tag -a v1.0.0 -m "Wulfram maps v1.0.0"
+git push origin refs/tags/v1.0.0
+```
+
+The release workflow runs the same validation, tests, and compilation, verifies
+that the tagged commit belongs to `main`, then builds and publishes the release.
+The publishing job cannot run if validation fails. Its build command validates
+again before creating artifacts:
+
+```bash
+npm run release:build -- v1.0.0
+```
+
+Use this tag-driven workflow instead of the editor's older `maps:release`
+command, which publishes directly and does not run these repository checks.

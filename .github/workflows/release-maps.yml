@@ -1,32 +1,40 @@
-name: Validate maps
+name: Release maps
 
 on:
-  pull_request:
-  merge_group:
   push:
-    branches:
-      - main
-  workflow_call:
-  workflow_dispatch:
+    tags:
+      - 'v*'
 
 permissions:
   contents: read
 
 concurrency:
-  group: validate-maps-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: true
+  group: release-maps-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   validate:
-    name: Validate maps
+    name: Validate release maps
+    uses: ./.github/workflows/validate-maps.yml
+
+  release:
+    name: Publish validated maps
+    needs: validate
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
-      - name: Check out proposed map sources
+      - name: Check out the release sources
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           path: wulfram-maps
+          fetch-depth: 0
           persist-credentials: false
+
+      - name: Verify the release tag belongs to reviewed main history
+        working-directory: wulfram-maps
+        run: git merge-base --is-ancestor HEAD origin/main
 
       - name: Check out the pinned map compiler
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -47,14 +55,19 @@ jobs:
         working-directory: wulfram-mapeditor
         run: npm ci --ignore-scripts --no-audit --no-fund
 
-      - name: Test map validation and the release gate
+      - name: Build validated release artifacts
         working-directory: wulfram-maps
-        run: npm test
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: npm run release:build -- "$RELEASE_TAG" "$RUNNER_TEMP/release"
 
-      - name: Validate every map and every state
+      - name: Publish GitHub Release
         working-directory: wulfram-maps
-        run: npm run validate
-
-      - name: Compile every canonical map
-        working-directory: wulfram-mapeditor
-        run: npm run maps:compile -- --all --repo ../wulfram-maps --out "$RUNNER_TEMP/compiled-maps"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: >-
+          gh release create "$RELEASE_TAG"
+          "$RUNNER_TEMP"/release/*.zip "$RUNNER_TEMP/release/SHA256SUMS.txt"
+          --repo "$GITHUB_REPOSITORY" --verify-tag
+          --title "Wulfram maps $RELEASE_TAG" --generate-notes
